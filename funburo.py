@@ -10,7 +10,7 @@ st.write("Lade ein Bild hoch und die KI zeigt, welchem Fundstück es ähnlich is
 
 # Absolute Pfade
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, "model", "keras_Model.h5")
+MODEL_PATH = os.path.join(BASE_DIR, "keras_Model.h5")
 LABELS_PATH = os.path.join(BASE_DIR, "model", "labels.txt")
 
 # Modell laden
