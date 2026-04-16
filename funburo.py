@@ -50,3 +50,7 @@ if uploaded_file:
     st.subheader("Ergebnis")
     st.write(f"Erkanntes Objekt: **{class_name[2:] if len(class_name)>2 else class_name}**")
     st.write(f"Confidence Score: {confidence_score*100:.2f}%")
+    st.write("BASE_DIR:", BASE_DIR)
+    st.write("MODEL_PATH:", MODEL_PATH)
+    st.write(os.listdir(BASE_DIR))
+    st.write(os.listdir(os.path.join(BASE_DIR, "model")))
